@@ -12,7 +12,7 @@ This is a modern, responsive website showcasing the **best AI tools of 2025**, b
 ChatGPT • Canva AI • Napkin AI • Gamma AI • Gemini • Grok • Claude • Perplexity • Blackbox  
 
 ### 🌍 Live Demo
-👉 [https://your-username.github.io/ai-tools-website](https://your-username.github.io/ai-tools-website)
+👉 [https://github.com/techyPratik/ai-tools/]
 
 ---
 
