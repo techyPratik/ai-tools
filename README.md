@@ -1,2 +1,27 @@
-# ai-tools
-A modern AI Tools App Store built with HTML, CSS, and JavaScript — explore top AI tools like ChatGPT, Gemini, and Canva AI.
+# 🧠 AI Tools App Store
+
+This is a modern, responsive website showcasing the **best AI tools of 2025**, built using **HTML, CSS, and JavaScript**.
+
+### 🚀 Features
+- Clean and modern user interface  
+- AI tool cards with icons and descriptions  
+- Mobile-friendly design  
+- Smooth hover effects and animations  
+
+### 🛠️ Tools Included
+ChatGPT • Canva AI • Napkin AI • Gamma AI • Gemini • Grok • Claude • Perplexity • Blackbox  
+
+### 🌍 Live Demo
+👉 [https://your-username.github.io/ai-tools-website](https://your-username.github.io/ai-tools-website)
+
+---
+
+### 💻 Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)
+
+---
+
+### 📄 License
+Free to use and modify — credits appreciated 😊
