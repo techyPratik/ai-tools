@@ -8,13 +8,13 @@ const tools = [
   {
     name: "Napkin AI",
     desc: "Turn ideas into visuals and concepts instantly using AI-powered sketching.",
-    img: "https://img.icons8.com/?size=512&id=R1mSgB6PaKbu&format=png", // icons8 placeholder
+    img: "https://img.icons8.com/?size=512&id=R1mSgB6PaKbu&format=png",
     link: "https://www.napkin.ai/",
   },
   {
     name: "Gamma AI",
     desc: "Generate stunning presentations, documents, and websites using AI.",
-    img: "https://gamma.app/favicon.ico", // verified icon
+    img: "https://gamma.app/favicon.ico",
     link: "https://gamma.app/",
   },
   {
@@ -22,13 +22,6 @@ const tools = [
     desc: "Design, write, and generate images effortlessly using Canva’s AI tools.",
     img: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Canva_Logo.png",
     link: "https://www.canva.com/magic-studio/",
-  },
-  // <-- corrected entry: Gork -> Grok (xAI)
-  {
-    name: "Grok (xAI)",
-    desc: "Elon Musk’s Grok — a witty, realtime chatbot from xAI integrated tightly with X.",
-    img: "https://x.ai/favicon.ico", // you can change this to a nicer logo if you have one
-    link: "https://x.ai/",
   },
   {
     name: "Gemini (Google AI)",
