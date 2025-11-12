@@ -3,85 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best AI Tools - TechyPratik</title>
+  <title>AI Tools Hub</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>⚡ Best AI Tools 2025 ⚡</h1>
-    <p>Explore the smartest AI platforms you can use today!</p>
+    <h1>🚀 Best AI Tools of 2025</h1>
+    <p class="subtitle">Discover powerful AI tools that boost your creativity and productivity</p>
+    <input type="text" id="searchBar" placeholder="🔍 Search AI tools..." />
   </header>
 
-  <main class="tool-container">
+  <main class="tool-container" id="toolContainer"></main>
 
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT Icon">
-      <h2>ChatGPT</h2>
-      <p>Created by OpenAI, ChatGPT is a conversational AI that helps you write, code, learn, and create anything with natural language.</p>
-      <a href="https://chat.openai.com" target="_blank" class="btn">Visit</a>
+  <!-- Popup -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="closePopup">&times;</span>
+      <img id="popupImage" src="" alt="Tool Logo" />
+      <h2 id="popupTitle"></h2>
+      <p id="popupDesc"></p>
+      <a id="popupLink" href="#" target="_blank" class="btn">Try Now</a>
     </div>
+  </div>
 
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Napkin_logo.png" alt="Napkin AI Icon">
-      <h2>Napkin AI</h2>
-      <p>Turns your ideas into visuals and diagrams instantly using smart text-to-visual generation.</p>
-      <a href="https://www.napkin.ai" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://static.gamma.app/_next/static/media/gamma_logo.6d8a0a3f.svg" alt="Gamma AI Icon">
-      <h2>Gamma AI</h2>
-      <p>A powerful tool that turns your ideas into beautiful slides, websites, and documents automatically using AI.</p>
-      <a href="https://gamma.app" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Canva_logo.svg" alt="Canva AI Icon">
-      <h2>Canva Magic Studio</h2>
-      <p>Canva’s AI-powered tools help you design anything — logos, posts, videos — using natural language prompts.</p>
-      <a href="https://www.canva.com/magic-studio/" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/XAI_logo.png" alt="Grok AI Icon">
-      <h2>Grok</h2>
-      <p>Elon Musk’s witty AI assistant by xAI that delivers real-time knowledge with humor and deep insight.</p>
-      <a href="https://x.ai" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Google_Gemini_logo.svg" alt="Gemini AI Icon">
-      <h2>Gemini</h2>
-      <p>Google’s multimodal AI that understands text, images, and data together for next-level reasoning and creativity.</p>
-      <a href="https://gemini.google.com" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Perplexity_AI_logo.png" alt="Perplexity Icon">
-      <h2>Perplexity AI</h2>
-      <p>An AI-powered answer engine that finds precise information from reliable sources with citations and clarity.</p>
-      <a href="https://www.perplexity.ai" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Claude_logo.png" alt="Claude Icon">
-      <h2>Claude</h2>
-      <p>Anthropic’s thoughtful AI assistant built to be helpful, harmless, and honest — great for writing and analysis.</p>
-      <a href="https://claude.ai" target="_blank" class="btn">Visit</a>
-    </div>
-
-    <div class="tool-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Blackbox_AI_logo.png" alt="Blackbox Icon">
-      <h2>Blackbox AI</h2>
-      <p>AI that helps developers write and understand code instantly — available as an extension for VS Code and browsers.</p>
-      <a href="https://www.useblackbox.io" target="_blank" class="btn">Visit</a>
-    </div>
-
-  </main>
-
-  <footer>
-    <p>Made with ❤️ by TechyPratik</p>
-  </footer>
+  <footer>© 2025 AI Tools Hub — Made by Pratik</footer>
 
   <script src="script.js"></script>
 </body>
