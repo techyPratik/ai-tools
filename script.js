@@ -23,11 +23,12 @@ const tools = [
     img: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Canva_Logo.png",
     link: "https://www.canva.com/magic-studio/",
   },
+  // <-- corrected entry: Gork -> Grok (xAI)
   {
-    name: "Gork",
-    desc: "Summarize web pages and videos instantly using AI-driven insights.",
-    img: "https://img.icons8.com/?size=512&id=7kYv7bPQW0dc&format=png", // modern globe icon
-    link: "https://gork.com/",
+    name: "Grok (xAI)",
+    desc: "Elon Musk’s Grok — a witty, realtime chatbot from xAI integrated tightly with X.",
+    img: "https://x.ai/favicon.ico", // you can change this to a nicer logo if you have one
+    link: "https://x.ai/",
   },
   {
     name: "Gemini (Google AI)",
@@ -97,8 +98,11 @@ popup.addEventListener("click", e => {
 });
 
 searchBar.addEventListener("input", () => {
-  const term = searchBar.value.toLowerCase();
-  const filtered = tools.filter(t => t.name.toLowerCase().includes(term));
+  const term = searchBar.value.toLowerCase().trim();
+  const filtered = tools.filter(t =>
+    t.name.toLowerCase().includes(term) ||
+    t.desc.toLowerCase().includes(term)
+  );
   displayTools(filtered);
 });
 
